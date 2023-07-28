@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #eeedef;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.container {
+  width: 600px;
+  height: auto;
+  box-shadow: 0 0 2px #666;
+}
+
+.comment-head {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #dedddc;
+}
+
+.comment-head img {
+  width: 34px;
+  height: 34px;
+  margin: 0 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.comment-head .comment-input {
+  width: 400px;
+  height: 28px;
+  padding-left: 4px;
+  border: none;
+}
+
+.comment-head .comment-submit {
+  box-sizing: border-box;
+  width: 50px;
+  height: 30px;
+  margin-right: 54px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  background-color: #ffa300;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.comment-head .del {
+  width: 30px;
+  height: 30px;
+  margin: 0 8px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 26px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.comment-con {
+  background-color: #fff;
+}
+
+.comment-con .con-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 62px;
+  padding: 8px 0;
+}
+
+.comment-con .con-list img {
+  width: 50px;
+  height: 50px;
+  margin: 0 8px;
+  border-radius: 50%;
+  user-select: none;
+}
+
