@@ -35,7 +35,7 @@ function addComment(parentNode, avatar, comment){
   let vImg = document.createElement('img');
   let vP = document.createElement('p');
   vDiv.classList.add('con-list');
-  vImg.src = avatar.src;
+  vImg.src = avatar.getAttribute('src');
   vP.innerHTML = comment;
   vDiv.appendChild(vImg);
   vDiv.appendChild(vP);
