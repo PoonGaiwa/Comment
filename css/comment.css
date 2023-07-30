@@ -23,8 +23,20 @@ body {
 .comment-head {
   display: flex;
   align-items: center;
+  position: relative;
   height: 40px;
   background-color: #dedddc;
+}
+
+.comment-head .tips {
+  position: absolute;
+  top: -130px;
+  left: 150px;
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #999;  
+  text-align: center;
+  padding: 4px;
 }
 
 .comment-head img {
@@ -36,6 +48,7 @@ body {
 }
 
 .comment-head .comment-input {
+  display: none;
   width: 400px;
   height: 28px;
   padding-left: 4px;
@@ -43,6 +56,7 @@ body {
 }
 
 .comment-head .comment-submit {
+  display: none;
   box-sizing: border-box;
   width: 50px;
   height: 30px;
@@ -56,7 +70,9 @@ body {
   cursor: pointer;
 }
 
-.comment-head .del {
+.comment-head .toggle {
+  position: absolute;
+  right: 8px;
   width: 30px;
   height: 30px;
   margin: 0 8px;
